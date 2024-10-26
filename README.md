@@ -30,7 +30,7 @@ This project aims to develop a customizable and user-friendly **WiFi captive por
    Use a web server like Nginx, Apache, or a Node.js server to host the portal page. Example with Node.js:  
    ```bash
    npm install  
-   npm start
+   npm run build
    ```
 
 ## Usage  
