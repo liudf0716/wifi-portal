@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Header } from './components/Header';
 import { WifiLogo } from './components/WifiLogo';
 import { LoginForm } from './components/LoginForm';
 
@@ -14,7 +13,6 @@ function App() {
 
   return (
     <div className="min-h-screen bg-white flex flex-col">
-      <Header />
       
       <main className="flex-1 flex flex-col items-center px-6">
         <div className="text-gray-600 text-center mt-8 mb-12 text-lg">
